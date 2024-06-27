@@ -3,21 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="img/logo.png" />
     <link rel="stylesheet" href="style.css" />
     <script src="app.js"></script>
-    <title>Document</title>
+    <title>ООО В13</title>
   </head>
   <body>
     <div class="container">
       <div class="top_menu">
         <h1 class="logo">ООО В13</h1>
-        <p class="telephone">8 (800) 535 35-35</p>
+        <div class="contact_info">
+          <p class="telephone">8 (800) 535 35-35</p>
+          <a class="telegram_href" href="https://t.me/notPHPuser" target="_blank">
+            <img class="telegram" src="img/telegram.png" alt="tg" />
+          </a>
+        </div>
       </div>
       <div class="info_about">
         <h1 class="h1_info_about">ООО В13</h1>
         <p class="p_info_about">Наша компания занимается поставкой медицинских средств</p>
         <button onclick="GoToService()" class="more_info" id="more_info">Подробнее</button>
-        <p class="arror">&lsaquo;</p>
+        <div class="divForArror">
+          <p class="arror">&lsaquo;</p>
+        </div>
       </div>
       <img class="mainPhoto" src="img/hospital2.png" alt="mainPhoto" />
       <div class="what_we_do">
@@ -39,6 +47,7 @@
           <div class="one_of_service"></div>
         </div>
       </div>
+      <footer class="footer"></footer>
     </div>
   </body>
 </html>

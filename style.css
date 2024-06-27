@@ -144,3 +144,31 @@ body {
   /* background-color: black; */
   border: 1px solid black;
 }
+
+.divForArror {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.contact_info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  position: relative;
+  left: 10%;
+}
+
+.telegram {
+  width: 35px;
+}
+
+.telegram_href {
+  position: relative;
+  left: 30%;
+}
+
+.footer {
+}
