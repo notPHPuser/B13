@@ -84,4 +84,63 @@ body {
   transform: rotate(270deg);
   top: 270px;
   user-select: none;
+  left: -10px;
+}
+
+.what_we_do {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  top: 500px;
+}
+
+.title_we_do {
+  font-size: 20px;
+  text-align: center;
+  width: 450px;
+  line-height: 1.5;
+}
+
+.services {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7f7;
+  top: 550px;
+  /* height: 500px; */
+}
+
+.h1_services {
+  position: relative;
+  top: 50px;
+  font-size: 40px;
+}
+
+.all_services {
+  position: relative;
+  margin-top: 100px;
+
+  width: 85%;
+  height: 850px;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* top: 100px; */
+}
+
+.one_of_service {
+  position: relative;
+  width: 24%;
+  height: 400px;
+  /* margin-bottom: 10px;
+  margin-top: 10px; */
+  /* background-color: black; */
+  border: 1px solid black;
 }
