@@ -142,7 +142,10 @@ body {
   /* margin-bottom: 10px;
   margin-top: 10px; */
   /* background-color: black; */
-  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* border: 1px solid black; */
 }
 
 .divForArror {
@@ -170,5 +173,24 @@ body {
   left: 30%;
 }
 
-.footer {
+.photo_in_service {
+  position: relative;
+  width: 50%;
+  top: -50px;
+  left: 25%;
+  height: 60%;
 }
+
+.p_in_service {
+  text-align: center;
+  position: relative;
+  top: -20px;
+}
+
+.pregnant {
+  width: 100%;
+}
+/* 
+.dialyzer {
+  width: 80%;
+} */
