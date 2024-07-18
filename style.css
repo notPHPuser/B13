@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  /* border: 1px solid red; */
+}
+
+.mainPhoto {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  filter: brightness(30%);
+  height: 800px;
+  user-select: none;
+  top: -37px;
+}
+
+.logo {
+  position: relative;
+  color: white;
+  left: 10%;
+  /* top: 10px; */
+}
+
+.telephone {
+  position: relative;
+  color: white;
+  left: 10%;
+  color: white;
+  pointer-events: none;
+  /* top: -10px; */
+}
+
+.top_menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 75%;
+  position: relative;
+  top: 10px;
+}
+
+.info_about {
+  width: 100%;
+  position: relative;
+  top: 230px;
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
+}
+
+.h1_info_about {
+  color: white;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.p_info_about {
+  color: white;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.more_info {
+  position: relative;
+  width: 150px;
+  height: 30px;
+  cursor: pointer;
+  background-color: #1d78f7;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.arror {
+  position: relative;
+  color: white;
+  font-size: 100px;
+  transform: rotate(270deg);
+  top: 270px;
+  user-select: none;
+  left: -10px;
+}
+
+.what_we_do {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  top: 500px;
+}
+
+.title_we_do {
+  font-size: 20px;
+  text-align: center;
+  width: 450px;
+  line-height: 1.5;
+}
+
+.services {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #f7f7f7; */
+  top: 550px;
+  /* height: 500px; */
+}
+
+.h1_services {
+  position: relative;
+  top: 50px;
+  font-size: 40px;
+}
+
+.all_services {
+  position: relative;
+  margin-top: 100px;
+
+  width: 85%;
+  height: 850px;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* top: 100px; */
+}
+
+.one_of_service {
+  position: relative;
+  width: 24%;
+  height: 400px;
+  /* margin-bottom: 10px;
+  margin-top: 10px; */
+  /* background-color: black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* border: 1px solid black; */
+}
+
+.divForArror {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.contact_info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  position: relative;
+  left: 10%;
+}
+
+.telegram {
+  width: 35px;
+}
+
+.telegram_href {
+  position: relative;
+  left: 30%;
+}
+
+.photo_in_service {
+  position: relative;
+  width: 50%;
+  top: -50px;
+  left: 25%;
+  height: 60%;
+}
+
+.p_in_service {
+  text-align: center;
+  position: relative;
+  top: -20px;
+}
+
+.pregnant {
+  width: 100%;
+}
+/* 
+.dialyzer {
+  width: 80%;
+} */
