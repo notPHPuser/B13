@@ -12,6 +12,10 @@ body {
   /* border: 1px solid red; */
 }
 
+img {
+  user-select: none;
+}
+
 .mainPhoto {
   position: absolute;
   z-index: -1;
@@ -67,6 +71,7 @@ body {
   color: white;
   position: relative;
   margin-bottom: 20px;
+  /* font-size: 18px; */
 }
 
 .more_info {
@@ -123,6 +128,7 @@ body {
   position: relative;
   top: 50px;
   font-size: 40px;
+  text-align: center;
 }
 
 .all_services {
@@ -197,3 +203,7 @@ body {
 .dialyzer {
   width: 80%;
 } */
+
+.otstup {
+  margin-bottom: 10px;
+}
