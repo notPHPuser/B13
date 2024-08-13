@@ -207,3 +207,30 @@ img {
 .otstup {
   margin-bottom: 5px;
 }
+
+.what_want {
+  position: relative;
+  display: flex;
+  width: 75%;
+  justify-content: space-between;
+  top: 100px;
+  height: 250px;
+}
+
+.choose_want {
+  width: 30%;
+  border: 1px solid red;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.img_main {
+  width: 25%;
+}
+
+.h1_main {
+  font-size: 20px;
+}
