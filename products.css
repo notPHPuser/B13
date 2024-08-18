@@ -10,9 +10,9 @@ body {
 }
 
 .container {
-  height: 100vh;
+  /* height: 100vh; */
   width: 75%;
-  background-color: white;
+  /* background-color: white; */
   margin: 0 auto;
 }
 
@@ -56,7 +56,7 @@ body {
 .one_of_service {
   position: relative;
   width: 24%;
-  height: 450px;
+  height: 420px;
   /* margin-bottom: 10px;
   margin-top: 10px; */
   /* background-color: black; */
@@ -82,4 +82,9 @@ body {
   /* background-color: #f7f7f7; */
   top: 100px;
   height: 550px;
+}
+
+.img_main {
+  position: relative;
+  width: 25%;
 }
