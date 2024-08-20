@@ -1,4 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+  background-image: url('img/products/19366.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
 .container {
   /* height: 100vh; */
   width: 75%;
@@ -15,19 +28,6 @@
   color: black;
   position: relative;
   top: 20px;
-}
-
-body {
-  background-image: url('img/products/19366.jpg');
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  font-family: 'Roboto', sans-serif;
 }
 
 header a {
@@ -47,16 +47,37 @@ header a {
   white-space: nowrap;
 }
 
-.second_header a:nth-child(3) {
+.second_header a:nth-child(4) {
   font-weight: 900;
 }
 
-.aboutUs {
+.main {
   position: relative;
-  top: 70px;
-  width: 75%;
+  width: 100%;
+  height: 60vh;
+  /* border: 1px solid red; */
+  top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin: 0 auto;
-  font-size: 17px;
+}
+
+.awards {
+  width: 30%;
+  height: 100%;
+  /* border: 1px solid red; */
+  border-radius: 10px;
+}
+
+.img_awards {
+  position: relative;
+  width: 100%;
+  transition: 0.2s ease-in-out;
+}
+
+.img_awards:hover {
+  transform: scale(1.1);
 }
 
 .left_fotter {
@@ -95,26 +116,5 @@ header a {
   position: relative;
   display: flex;
   position: relative;
-  top: 650px;
-}
-
-.fotos {
-  position: relative;
-  width: 100%;
-  /* height: 10px; */
-  top: 100px;
-  /* overflow: hidden;  */
-}
-
-.img_about {
-  position: absolute;
-  width: 100%;
-  height: 500px;
-  opacity: 0;
-  transition: opacity 1s ease-in-out;
-  border-radius: 5px;
-}
-
-.img_about.active {
-  opacity: 1;
+  top: 200px;
 }
