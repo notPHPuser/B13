@@ -50,3 +50,57 @@ header a {
 .second_header a:nth-child(5) {
   font-weight: 900;
 }
+
+.main {
+  width: 100%;
+  height: 550px;
+  /* border: 1px solid red; */
+  position: relative;
+  top: 70px;
+}
+
+.map {
+  /* position: relative; */
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.left_fotter {
+  width: 60%;
+  height: 100%;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right_fotter {
+  width: 40%;
+  height: 100%;
+  /* border: 1px solid yellow; */
+}
+
+.info_left_fotter {
+  width: 95%;
+  height: 75%;
+  /* border: 1px solid blue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.p_info_left_footer {
+  color: white;
+  font-size: 13px;
+}
+
+.footer {
+  width: 100%;
+  height: 170px;
+  background-color: grey;
+  position: relative;
+  display: flex;
+  position: relative;
+  top: 100px;
+}
