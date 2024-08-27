@@ -20,7 +20,7 @@ img {
   position: absolute;
   z-index: -1;
   width: 100%;
-  filter: brightness(30%);
+  filter: brightness(60%);
   height: 800px;
   user-select: none;
   top: -37px;
@@ -29,9 +29,8 @@ img {
 }
 
 .mainPhoto.show {
-  left: 0; /* move the image back to its original position */
+  left: 0;
 }
-
 .logo {
   position: relative;
   color: white;
@@ -44,7 +43,8 @@ img {
   color: white;
   left: 10%;
   color: white;
-  pointer-events: none;
+  /* pointer-events: none; */
+  z-index: 5;
   /* top: -10px; */
 }
 
